@@ -3,6 +3,7 @@ def eval_classification(model, X_train, y_train, X_test, y_test, model_name="mod
     
     from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report, ConfusionMatrixDisplay, roc_auc_score
     import pandas as pd
+    import matplotlib.pyplot as plt
 
     train_pred = model.predict(X_train)
     test_pred = model.predict(X_test)
