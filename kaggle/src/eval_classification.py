@@ -41,8 +41,8 @@ def eval_classification(model, X_train, y_train, X_test, y_test, model_name="mod
     
     # print confusion matrices side by side
     fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(8, 4))
-    ConfusionMatrixDisplay.from_predictions(y_train, train_pred, normalize="true", cmap="Blues", ax=ax1)
-    ConfusionMatrixDisplay.from_predictions(y_test, test_pred, normalize="true", cmap="Greens", ax=ax2)
+    ConfusionMatrixDisplay.from_predictions(y_train, train_pred, normalize="true", cmap="Blues", ax=ax1,  display_labels=["Non-Defaulter", "Defaulter"],)
+    ConfusionMatrixDisplay.from_predictions(y_test, test_pred, normalize="true", cmap="Greens", ax=ax2, display_labels=["Non-Defaulter", "Defaulter"])
     plt.tight_layout()  
     plt.show()
 
