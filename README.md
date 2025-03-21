@@ -1,4 +1,4 @@
-# Home Credit Group's Default Risk Prediction [@kaggle] (https://www.github.com/kaggle) Competition
+# Home Credit Group's Default Risk Prediction Competition (Hosted on Kaggle)
 
 ## How capable of repaying a loan is each applicant?
 
