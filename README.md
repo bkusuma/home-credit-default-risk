@@ -46,12 +46,8 @@ The area under the ROC curve (AUC for short) reduces the ROC curve to a single v
 title: Dataset Setup
 ---
 
-style bureau stroke:#0f0
-style bureau_balance stroke:#0f0
-style previous_application stroke:#f00
-style POS_CASH_balance stroke:#fcfc58
-style installments_payments stroke:#fcfc58
-style credit_card_balance stroke:#fcfc58
+style bureau color:#0f0
+classDef default fill:#f9f,stroke:#333,stroke-width:4px;
 
 erDiagram
     "application_{train|test}" {
