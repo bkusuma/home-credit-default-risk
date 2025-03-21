@@ -85,7 +85,6 @@ erDiagram
     previous_application ||--o{ installments_payments : "SK_ID_PREV"
     previous_application ||--o{ credit_card_balance : "SK_ID_PREV"
 
-    style bureau color:#0f0
     classDef default fill:#f9f,stroke:#333,stroke-width:4px;
 ```
 
