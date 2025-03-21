@@ -45,7 +45,6 @@ The area under the ROC curve (AUC for short) reduces the ROC curve to a single v
 ---
 title: Dataset Setup
 ---
-
 erDiagram
     "application_{train|test}" {
         int SK_ID_CURR PK
@@ -84,8 +83,6 @@ erDiagram
     previous_application ||--o{ POS_CASH_balance: "SK_ID_PREV"
     previous_application ||--o{ installments_payments : "SK_ID_PREV"
     previous_application ||--o{ credit_card_balance : "SK_ID_PREV"
-
-    classDef default fill:#f9f,stroke:#333,stroke-width:4px;
 ```
 
 ### Citation
