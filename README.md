@@ -42,6 +42,10 @@ The area under the ROC curve (AUC for short) reduces the ROC curve to a single v
 |  |  |  |  |  | * One row is equivalent to one payment of one installment OR one installment corresponding to one payment of one previous Home Credit credit related to loans in our sample. |  |  |
 
 ```mermaid
+---
+title: Dataset Setup
+---
+
 erDiagram
     "application_{train|test}" {
         int SK_ID_CURR PK
@@ -83,12 +87,12 @@ erDiagram
     previous_application ||--o{ installments_payments : "SK_ID_PREV"
     previous_application ||--o{ credit_card_balance : "SK_ID_PREV"
 
-    style bureau stroke:#0f0, stroke-width:4px
-    style bureau_balance stroke:#0f0, stroke-width:4px
-    style previous_application stroke:#f00, stroke-width:4px
-    style POS_CASH_balance stroke:#fcfc58, stroke-width:4px
-    style installments_payments stroke:#fcfc58, stroke-width:4px
-    style credit_card_balance stroke:#fcfc58, stroke-width:4px
+    style bureau stroke:#0f0
+    style bureau_balance stroke:#0f0
+    style previous_application stroke:#f00
+    style POS_CASH_balance stroke:#fcfc58
+    style installments_payments stroke:#fcfc58
+    style credit_card_balance stroke:#fcfc58
 ```
 
 ### Citation
