@@ -86,13 +86,6 @@ erDiagram
     previous_application ||--o{ POS_CASH_balance: "SK_ID_PREV"
     previous_application ||--o{ installments_payments : "SK_ID_PREV"
     previous_application ||--o{ credit_card_balance : "SK_ID_PREV"
-
-    style bureau stroke:#0f0
-    style bureau_balance stroke:#0f0
-    style previous_application stroke:#f00
-    style POS_CASH_balance stroke:#fcfc58
-    style installments_payments stroke:#fcfc58
-    style credit_card_balance stroke:#fcfc58
 ```
 
 ### Citation
