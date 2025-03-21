@@ -47,8 +47,6 @@ title: Dataset Setup
 ---
 erDiagram
 
-   classDef notMoving fill:white
-
     "application_{train|test}" {
         int SK_ID_CURR PK
     }
@@ -86,8 +84,6 @@ erDiagram
     previous_application ||--o{ POS_CASH_balance: "SK_ID_PREV"
     previous_application ||--o{ installments_payments : "SK_ID_PREV"
     previous_application ||--o{ credit_card_balance : "SK_ID_PREV"
-
-   class bureau notMoving
 
 ```
 
