@@ -107,7 +107,9 @@ erDiagram
 
 
 ---
+<details>
   <summary><h1>Next Steps</h1> <sub>(click ▶ to expand)</sub></summary>
+  
 *   Further exploration of feature engineering techniques, potentially incorporating more complex aggregations and interactions across different data sources.
 *   More extensive hyperparameter tuning and optimization of the selected model.
 *   Experimentation with advanced modeling techniques, such as deep learning models or ensemble methods.
