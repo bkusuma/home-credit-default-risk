@@ -14,7 +14,7 @@ Doing so will ensure that clients capable of repayment are not rejected and that
 
 # Executive Summary
 
-1. The best performing stacked machine learning model achieved a promising $ROC AUC score = 0.75715$, indicating its effectiveness in distinguishing between clients likely to repay and those at higher risk of default.
+1. The best performing histogram-based gradient boosting tree model achieved a promising $ROC AUC score = 0.75728$, indicating its effectiveness in distinguishing between clients likely to repay and those at higher risk of default.
 2. External credit scores from credit bureaus were found to be strong indicators of repayment probability.
 
 # Evaluation
