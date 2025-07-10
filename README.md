@@ -1,4 +1,4 @@
-# Home Credit Group's Default Risk Prediction Competition (Hosted on Kaggle)
+# Home Credit Group's Risk of Default Prediction Competition (Hosted on Kaggle)
 How capable of repaying a loan is each applicant?
 
 Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
