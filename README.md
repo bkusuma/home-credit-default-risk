@@ -1,27 +1,33 @@
 # Home Credit Group's Risk of Default Prediction Competition (Hosted on Kaggle)
 How capable of repaying a loan is each applicant?
 
-Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
+Many people struggle to get loans due to insufficient or non-existent credit histories.
 
-# Project Overview
+And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
 
-# [![Home Credit Group](https://www.homecredit.net/wp-content/uploads/2022/10/homecredit.svg)](http://www.homecredit.net/) strives to broaden financial inclusion for the unbanked population by providing loans to individuals with limited or no credit history via a positive and safe borrowing experience
+## Project Overview
+
+### Tech Stack
+- **Languages & Libraries:** Python, Pandas, NumPy, Scikit-Learn, XGBoost/LightGBM, Seaborn, Matplotlib
+- **Tools:** Jupyter Notebook, Git
+
+### [![Home Credit Group](https://www.homecredit.net/wp-content/uploads/2022/10/homecredit.svg)](http://www.homecredit.net/) strives to broaden financial inclusion for the unbanked population by providing loans to individuals with limited or no credit history via a positive and safe borrowing experience
 
 This project addresses the Kaggle competition [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/overview) which challenges participants to predict the probability of loan default for Home Credit Group's clients using a variety of alternative data.
 
 While Home Credit Group is currently using various statistical and machine learning methods to make these predictions, they challenged Kagglers to help them unlock the full potential of their data. 
 Doing so will ensure that clients capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful. Accurately assessing the risk of loan default is crucial for the company's sustainability and for ensuring responsible lending practices.
 
-# Executive Summary
+## Executive Summary
 
 1. The best performing histogram-based gradient boosting tree model achieved a promising $ROC AUC score = 0.75728$, indicating its effectiveness in distinguishing between clients likely to repay and those at higher risk of default.
 2. External credit scores from credit bureaus were found to be strong indicators of repayment probability.
 
-# Evaluation
+### Evaluation
 
 For this project, submissions were evaluated on [area under the ROC curve](http://en.wikipedia.org/wiki/Receiver_operating_characteristic) between the predicted probability and the observed target.
 
-### ROC curve calculation
+#### ROC curve calculation
 
 The receiver operating characteristic (ROC) curve is a plot of the *true positive rate (TPR)* __against__ the *false positive rate (FPR)* at various threshold settings
 
@@ -39,7 +45,7 @@ The area under the ROC curve (AUC for short) reduces the ROC curve to a single v
   <summary><h1>Data</h1> <sub>(click ▶ to expand)</sub></summary>
 
 
-### This project utilizes several interconnected datasets provided by Home Credit Group:
+#### This project utilizes several interconnected datasets provided by Home Credit Group:
 
 ```mermaid
 ---
@@ -117,6 +123,6 @@ erDiagram
 *   Consideration of different business-driven thresholds for classifying loan applications based on the predicted probabilities.
 </details>
 
-###### Citation
+##### Citation
 
 Anna Montoya, inversion, KirillOdintsov, and Martin Kotek. Home Credit Default Risk. https://kaggle.com/competitions/home-credit-default-risk, 2018. Kaggle.
